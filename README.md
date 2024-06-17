@@ -1,5 +1,5 @@
 - 👋 Opa, meu nome é Luis!
-- 👀 Atualmente estou interessado em arrumar novas oprotunidades na área de TI.
+- 👀 Atualmente estou interessado em arrumar novas oportunidades na área de TI.
 - 🌱 No momento estou aprendendo front-end.
 - 📫 Meu Telefone:(61) 98338-1692  Meu email:luisfilipecab@gmail.com
 
