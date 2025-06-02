@@ -1,7 +1,35 @@
 <h1 align="center">Hi 👋, I'm Luis Filipe</h1>
 <h3 align="center">A developer fullstack from Brazil</h3>
 
-![Luis Filipe's GitHub stats](https://github-readme-stats.vercel.app/api?username=seuusuario&show_icons=true&theme=radical)
+<p align="center">
+  💻 Desenvolvedor Backend em formação | Estudante de ADS | Apaixonado por tecnologia
+</p>
+
+---
+
+### 🚀 Tecnologias e Ferramentas
+
+![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
+![Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat&logo=node.js&logoColor=white)
+![Express](https://img.shields.io/badge/-Express-black?style=flat&logo=express)
+![React](https://img.shields.io/badge/-React-61DAFB?style=flat&logo=react&logoColor=black)
+![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-336791?style=flat&logo=postgresql&logoColor=white)
+![Git](https://img.shields.io/badge/-Git-F05032?style=flat&logo=git&logoColor=white)
+![Webpack](https://img.shields.io/badge/-Webpack-8DD6F9?style=flat&logo=webpack&logoColor=black)
+
+---
+
+### 📈 Minhas estatísticas no GitHub
+
+![Luis Filipe's GitHub stats](https://github-readme-stats.vercel.app/api?username=LuisCampelo2&show_icons=true&theme=tokyonight)
+
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=LuisCampelo2&layout=compact&theme=tokyonight)
+
+---
+
+### 📫 Onde me encontrar
+- Telegram: [@SeuUsuarioAqui](https://t.me/SeuUsuarioAqui)
+- LinkedIn: [linkedin.com/in/seuusuario](https://linkedin.com/in/seuusuario)
 
 
 <h3 align="left">Connect with me:</h3>
