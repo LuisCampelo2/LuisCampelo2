@@ -1,12 +1,5 @@
 <h1 align="center">Hi 👋, I'm Luis Filipe</h1>
 <h3 align="center">A developer fullstack from Brazil</h3>
-
-<p align="center">
-  💻 Desenvolvedor Backend em formação | Estudante de ADS | Apaixonado por tecnologia
-</p>
-
----
-
 ---
 
 ### 🚀 Tecnologias e Ferramentas
@@ -23,9 +16,6 @@
 
 ---
 
-
----
-
 ### 📈 Minhas estatísticas no GitHub
 
 ![Luis Filipe's GitHub stats](https://github-readme-stats.vercel.app/api?username=LuisCampelo2&show_icons=true&theme=tokyonight)
@@ -33,15 +23,14 @@
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=LuisCampelo2&layout=compact&theme=tokyonight)
 
 ---
-
-### 📫 Onde me encontrar
-- Telegram: [@SeuUsuarioAqui](https://t.me/SeuUsuarioAqui)
-- LinkedIn: [linkedin.com/in/seuusuario](https://linkedin.com/in/seuusuario)
-
-
 <h3 align="left">Connect with me:</h3>
 <p align="left">
-<a href="https://linkedin.com/in/https://www.linkedin.com/in/luiscampelo2/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="https://www.linkedin.com/in/luiscampelo2/" height="30" width="40" /></a>
+  <a href="https://www.linkedin.com/in/luiscampelo2/" target="_blank">
+    <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="LinkedIn" height="30" width="40" />
+  </a>
+  <a href="https://t.me/luiscampelo2" target="_blank">
+    <img align="center" src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/telegram.svg" alt="Telegram" height="30" width="40" />
+  </a>
 </p>
 
 <h3 align="left">Languages and Tools:</h3>
