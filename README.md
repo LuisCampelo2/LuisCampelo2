@@ -36,10 +36,22 @@ Educational platform for students and teachers.
 
 🔗 Repository: https://github.com/bratloware/VestWeb
 
-### GoMob
-Application designed to improve communication between passengers and public transportation drivers.
+### LIFT
 
-**Tech Stack:** React, Node.js, PostgreSQL
+Platform designed to connect students, personal trainers and gyms in a single ecosystem.
+
+**Features:**
+- Workout creation and management
+- Student progress tracking
+- Performance metrics and reports
+- Communication between students and trainers
+- Gym management tools
+- Responsive web application
+
+**Tech Stack:** React native, Node.js, Express, PostgreSQL
+
+🔗 Repository: https://github.com/bratloware/LIFT
+
 
 ### More Projects
 
