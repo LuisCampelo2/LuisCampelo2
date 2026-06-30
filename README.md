@@ -34,7 +34,7 @@ Educational platform for students and teachers.
 
 **Tech Stack:** React, Node.js, Express, MySQL
 
-🔗 Repository: https://github.com/bratloware/VestWeb
+🔗 Repository: https://github.com/BratlowareOrg/VestWeb
 
 ### LIFT
 
