@@ -50,7 +50,7 @@ Platform designed to connect students, personal trainers and gyms in a single ec
 
 **Tech Stack:** React native, Node.js, Express, PostgreSQL
 
-🔗 Repository: https://github.com/bratloware/LIFT
+🔗 Repository: https://github.com/BratlowareOrg/LIFT.git
 
 
 ### More Projects
