@@ -57,7 +57,7 @@ Platform designed to connect students, personal trainers and gyms in a single ec
 
 Most of my projects are developed and maintained through the BratloWare organization:
 
-🔗 https://github.com/bratloware
+🔗 https://github.com/BratlowareOrg
 
 ---
 
