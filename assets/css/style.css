@@ -1,7 +1,7 @@
 /* ---------------------------------------------------------------
-   Luis Filipe Campelo — Portfólio
+   Luis Filipe Campelo Aragão Belinho — Portfólio
    Paleta escura sóbria: base grafite-azulada + accent cobre.
-   Tipografia: Space Grotesk (display), Inter (corpo), JetBrains Mono (labels).
+   Tipografia: Honk nos títulos (h1/h2/h3), Quantico no resto.
 --------------------------------------------------------------- */
 
 :root {
@@ -20,9 +20,9 @@
   --accent-strong: #e0a165;
   --accent-soft: rgba(201, 138, 75, 0.14);
 
-  --font-display: "Space Grotesk", "Inter", system-ui, sans-serif;
-  --font-body: "Inter", system-ui, -apple-system, sans-serif;
-  --font-mono: "JetBrains Mono", "SFMono-Regular", Consolas, monospace;
+  --font-display: "Honk", system-ui, sans-serif;
+  --font-body: "Quantico", system-ui, -apple-system, sans-serif;
+  --font-mono: "Quantico", "SFMono-Regular", Consolas, monospace;
 
   --max-width: 1080px;
   --radius: 10px;
@@ -90,9 +90,17 @@ button {
 h1,
 h2,
 h3 {
-  font-family: var(--font-display);
   font-weight: 600;
   letter-spacing: -0.01em;
+}
+
+h1,
+h2 {
+  font-family: var(--font-display);
+}
+
+h3 {
+  font-family: var(--font-body);
 }
 
 [data-lucide] {
@@ -256,24 +264,12 @@ h3 {
   gap: 10px;
   font-size: clamp(1.1rem, 2.4vw, 1.4rem);
   color: var(--text-muted);
-  margin-bottom: 20px;
+  margin-bottom: 44px;
 }
 
 .prompt-mark {
   font-family: var(--font-mono);
   color: var(--accent);
-}
-
-.hero-stack {
-  font-family: var(--font-mono);
-  font-size: 0.88rem;
-  color: var(--text-faint);
-  margin-bottom: 44px;
-}
-
-.hero-stack .dot {
-  color: var(--border);
-  margin: 0 4px;
 }
 
 .hero-actions {
@@ -364,7 +360,7 @@ h3 {
 }
 
 .section-title {
-  font-size: clamp(1.6rem, 3vw, 2.1rem);
+  font-size: clamp(2.1rem, 4.2vw, 3rem);
   margin-bottom: 36px;
   max-width: 640px;
 }
