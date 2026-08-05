@@ -1,0 +1,99 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+2 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+3 0 obj
+<< /Length 3421 >>
+stream
+BT
+/F2 20 Tf
+1 0 0 1 56 792 Tm (LUIS FILIPE CAMPELO) Tj
+/F1 12 Tf
+1 0 0 1 56 766 Tm (Desenvolvedor Full Stack Junior) Tj
+/F1 10 Tf
+1 0 0 1 56 752 Tm (Brasilia, Distrito Federal, Brasil) Tj
+/F1 9 Tf
+1 0 0 1 56 732 Tm (wd.luis.campelo@gmail.com  |  \(61\) 98338-1692  |  linkedin.com/in/luiscampelo12  |  github.com/LuisCampelo2) Tj
+/F2 12 Tf
+1 0 0 1 56 705 Tm (SOBRE) Tj
+/F1 10 Tf
+1 0 0 1 56 687 Tm (Sou desenvolvedor full stack junior e estou construindo minha carreira em tecnologia com a mesma) Tj
+1 0 0 1 56 667 Tm (disciplina que trouxe da minha experiencia anterior em processos administrativos: atencao a) Tj
+1 0 0 1 56 647 Tm (detalhes, organizacao e entrega dentro do prazo. Hoje trabalho com JavaScript, React, Node.js,) Tj
+1 0 0 1 56 627 Tm (Python e Django, do front-end ao back-end, incluindo integracao de APIs RESTful, banco de dados) Tj
+1 0 0 1 56 607 Tm (relacional \(MySQL/PostgreSQL\) e deploy em producao \(Vercel, Render, Railway\). Estou cursando) Tj
+1 0 0 1 56 587 Tm (Analise e Desenvolvimento de Sistemas no UniCEUB e conclui uma formacao intensiva em) Tj
+1 0 0 1 56 567 Tm (Desenvolvimento Web Full Stack pela Mate Academy. Uso Scrum e Kanban no dia a dia dos meus) Tj
+1 0 0 1 56 547 Tm (projetos, tenho familiaridade com Git/GitHub e Docker, e gosto de aprender rapido.) Tj
+/F2 12 Tf
+1 0 0 1 56 527 Tm (STACK TECNICO) Tj
+/F1 10 Tf
+1 0 0 1 56 509 Tm (Linguagens: JavaScript, TypeScript, Python) Tj
+1 0 0 1 56 495 Tm (Front-end: React, HTML, CSS, Bootstrap) Tj
+1 0 0 1 56 481 Tm (Back-end: Node.js, Express, Django) Tj
+1 0 0 1 56 467 Tm (Banco de Dados: MySQL, PostgreSQL, SQLite) Tj
+1 0 0 1 56 453 Tm (Ferramentas & DevOps: Git, GitHub, Docker, Vercel, Render, Railway, Hostinger) Tj
+1 0 0 1 56 439 Tm (Metodologias: Scrum, Kanban) Tj
+1 0 0 1 56 425 Tm (Idiomas: Ingles \(Professional Working\)) Tj
+/F2 12 Tf
+1 0 0 1 56 397 Tm (PROJETOS) Tj
+/F2 10 Tf
+1 0 0 1 56 379 Tm (VestWeb  -  github.com/BratlowareOrg/VestWeb) Tj
+/F1 10 Tf
+1 0 0 1 56 366 Tm (Plataforma web educacional com area do aluno e area do professor, com integracao entre front-end e) Tj
+1 0 0 1 56 346 Tm (back-end e gerenciamento de dados. Tecnologias: React, Node.js, Express.) Tj
+/F2 10 Tf
+1 0 0 1 56 326 Tm (Lift  -  github.com/BratlowareOrg/LIFT) Tj
+/F1 10 Tf
+1 0 0 1 56 313 Tm (Plataforma de gestao para personal trainers, alunos e academias: gerenciamento de treinos, evolucao) Tj
+1 0 0 1 56 293 Tm (fisica, agenda de aulas, controle financeiro e sistema de assinaturas. Tecnologias: React, Node.js,) Tj
+1 0 0 1 56 273 Tm (Express, banco de dados relacional.) Tj
+/F2 12 Tf
+1 0 0 1 56 253 Tm (EXPERIENCIA PROFISSIONAL) Tj
+/F2 10 Tf
+1 0 0 1 56 235 Tm (Auxiliar Administrativo - Grupo RCS \(alocado no Ministerio da Cultura\)) Tj
+/F1 9 Tf
+1 0 0 1 56 223 Tm (Nov/2023 - Abr/2024 \(6 meses\)  |  Brasilia, DF) Tj
+/F1 10 Tf
+1 0 0 1 56 210 Tm (Atuacao na organizacao e tramitacao de documentos digitais atraves do sistema SEI \(Sistema) Tj
+1 0 0 1 56 190 Tm (Eletronico de Informacoes\), garantindo fluidez nos processos internos e conformidade com prazos.) Tj
+/F2 12 Tf
+1 0 0 1 56 170 Tm (FORMACAO) Tj
+/F1 10 Tf
+1 0 0 1 56 152 Tm (Tecnologo em Analise e Desenvolvimento de Sistemas - UniCEUB \(Centro Universitario de Brasilia\) |) Tj
+1 0 0 1 56 138 Tm (jul/2024 - dez/2026) Tj
+1 0 0 1 56 124 Tm (Curso Superior de Tecnologia, Desenvolvimento Web Full Stack - Mate Academy Brasil | mar/2025 -) Tj
+1 0 0 1 56 110 Tm (ago/2025) Tj
+ET
+endstream
+endobj
+4 0 obj
+<< /Type /Pages /Kids [5 0 R] /Count 1 >>
+endobj
+5 0 obj
+<< /Type /Page /Parent 4 0 R /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /MediaBox [0 0 595 842] /Contents 3 0 R >>
+endobj
+6 0 obj
+<< /Type /Catalog /Pages 4 0 R >>
+endobj
+7 0 obj
+<< /Title (Curriculo - Luis Filipe Campelo) /Author (Luis Filipe Campelo) /Producer (portfolio-build-script) >>
+endobj
+xref
+0 8
+0000000000 65535 f 
+0000000009 00000 n 
+0000000079 00000 n 
+0000000154 00000 n 
+0000003627 00000 n 
+0000003684 00000 n 
+0000003820 00000 n 
+0000003869 00000 n 
+trailer
+<< /Size 8 /Root 6 0 R /Info 7 0 R >>
+startxref
+3996
+%%EOF
