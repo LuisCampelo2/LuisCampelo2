@@ -783,6 +783,13 @@ h3 {
   padding: 72px 0 64px;
 }
 
+.project-meta-line {
+  font-family: var(--font-mono);
+  font-size: 0.85rem;
+  color: var(--text-faint);
+  margin-bottom: 28px;
+}
+
 .project-detail-tags {
   margin-bottom: 36px;
 }
@@ -791,6 +798,10 @@ h3 {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 22px;
+}
+
+.screens-grid-phone {
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
 }
 
 .screen-card {
