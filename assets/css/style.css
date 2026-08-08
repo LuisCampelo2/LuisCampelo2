@@ -448,21 +448,33 @@ h3 {
   font-size: 1.15rem;
 }
 
-.project-card-head a {
+.project-more-link {
   display: inline-flex;
   align-items: center;
-  justify-content: center;
-  width: 34px;
-  height: 34px;
+  gap: 6px;
+  flex-shrink: 0;
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  padding: 6px 12px;
   border: 1px solid var(--border);
   border-radius: 8px;
-  color: var(--text-muted);
-  transition: color var(--transition), border-color var(--transition);
+  transition: color var(--transition), border-color var(--transition), transform var(--transition);
 }
 
-.project-card-head a:hover {
+.project-more-link [data-lucide] {
+  width: 0.95em;
+  height: 0.95em;
+  transition: transform var(--transition);
+}
+
+.project-more-link:hover {
   color: var(--accent-strong);
   border-color: var(--accent);
+}
+
+.project-more-link:hover [data-lucide] {
+  transform: translateX(2px);
 }
 
 .project-card p {
@@ -742,4 +754,121 @@ h3 {
   font-family: var(--font-mono);
   font-size: 0.78rem;
   color: var(--text-faint);
+}
+
+/* Project detail pages ---------------------------------------------------- */
+.back-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.88rem;
+  color: var(--text-muted);
+  transition: color var(--transition);
+}
+
+.back-link [data-lucide] {
+  width: 1em;
+  height: 1em;
+}
+
+.back-link:hover {
+  color: var(--accent-strong);
+}
+
+.site-footer .back-link {
+  margin-bottom: 28px;
+}
+
+.project-hero {
+  padding: 72px 0 64px;
+}
+
+.project-detail-tags {
+  margin-bottom: 36px;
+}
+
+.screens-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 22px;
+}
+
+.screen-card {
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  overflow: hidden;
+  background: var(--surface);
+  transition: border-color var(--transition), transform var(--transition);
+}
+
+.screen-card:hover {
+  border-color: var(--accent);
+  transform: translateY(-2px);
+}
+
+.screen-trigger {
+  display: block;
+  width: 100%;
+  padding: 0;
+  border: none;
+  background: none;
+  cursor: zoom-in;
+  line-height: 0;
+}
+
+.screen-trigger img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.screen-card figcaption {
+  padding: 12px 16px;
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  border-top: 1px solid var(--border-soft);
+}
+
+.lightbox {
+  position: fixed;
+  inset: 0;
+  z-index: 300;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+  background: rgba(6, 7, 9, 0.92);
+  backdrop-filter: blur(4px);
+}
+
+.lightbox[hidden] {
+  display: none;
+}
+
+.lightbox img {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+}
+
+.lightbox-close {
+  position: absolute;
+  top: 24px;
+  right: 24px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  color: var(--text);
+  background: var(--bg-elevated);
+  transition: border-color var(--transition), color var(--transition);
+}
+
+.lightbox-close:hover {
+  color: var(--accent-strong);
+  border-color: var(--accent);
 }
