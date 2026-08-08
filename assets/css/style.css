@@ -625,6 +625,85 @@ h3 {
   margin-bottom: 4px;
 }
 
+/* Certificados ----------------------------------------------------------------- */
+.certificates-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 18px;
+}
+
+.certificate-card {
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 22px;
+  background: var(--surface);
+  transition: border-color var(--transition), transform var(--transition);
+}
+
+.certificate-card:hover {
+  border-color: var(--accent);
+  transform: translateY(-2px);
+}
+
+.certificate-card-featured {
+  grid-column: span 2;
+  border-color: var(--accent);
+  background: linear-gradient(160deg, var(--accent-soft), var(--surface) 60%);
+}
+
+.certificate-card-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 14px;
+}
+
+.certificate-card-head > [data-lucide]:first-child {
+  color: var(--accent);
+  width: 1.3em;
+  height: 1.3em;
+}
+
+.certificate-card-head a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 34px;
+  height: 34px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  color: var(--text-muted);
+  transition: color var(--transition), border-color var(--transition);
+}
+
+.certificate-card-head a:hover {
+  color: var(--accent-strong);
+  border-color: var(--accent);
+}
+
+.certificate-card h3 {
+  font-size: 1.02rem;
+  margin-bottom: 6px;
+}
+
+.certificate-meta {
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  color: var(--text-faint);
+}
+
+.certificate-card p:not(.certificate-meta) {
+  margin-top: 10px;
+  color: var(--text-muted);
+  font-size: 0.9rem;
+}
+
+@media (max-width: 640px) {
+  .certificate-card-featured {
+    grid-column: span 1;
+  }
+}
+
 /* Footer / Contato ------------------------------------------------------------- */
 .site-footer {
   padding: 88px 0 56px;
