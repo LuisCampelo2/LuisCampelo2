@@ -234,7 +234,7 @@ h3 {
   color: var(--paper);
 }
 
-@media (max-width: 720px) {
+@media (max-width: 1100px) {
   .site-nav {
     display: none;
   }
@@ -370,6 +370,7 @@ h3 {
   letter-spacing: -0.01em;
   margin-bottom: 28px;
   max-width: 18ch;
+  overflow-wrap: break-word;
 }
 
 .name-word {
@@ -542,10 +543,11 @@ h3 {
 }
 
 .section-title {
-  font-size: clamp(2.4rem, 6.5vw, 5rem);
+  font-size: clamp(1.9rem, 6.5vw, 5rem);
   line-height: 0.92;
   margin-bottom: 40px;
   max-width: 14ch;
+  overflow-wrap: break-word;
 }
 
 .about-text {
@@ -611,7 +613,7 @@ h3 {
   width: 38px;
   height: 38px;
   bottom: 10%;
-  right: -2%;
+  right: 1%;
   animation-delay: -1.6s;
 }
 
@@ -629,7 +631,7 @@ h3 {
   width: 46px;
   height: 46px;
   top: 42%;
-  left: -1%;
+  left: 1%;
   animation-delay: -2.9s;
 }
 
@@ -1427,7 +1429,7 @@ h3 {
 
 .videos-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(min(340px, 100%), 1fr));
   gap: 22px;
 }
 
@@ -1733,7 +1735,7 @@ h3 {
 
 .screens-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(min(300px, 100%), 1fr));
   gap: 14px;
 }
 
