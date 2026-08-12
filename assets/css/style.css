@@ -287,28 +287,53 @@ h3 {
   transform: rotate(6deg);
 }
 
-.blob {
+.tech-orb {
   position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   border-radius: 50%;
-  filter: blur(0.5px);
+  border: 1px solid var(--paper);
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(3px);
+  animation: orb-float 5s ease-in-out infinite;
 }
 
-.blob-1 {
-  width: 130px;
-  height: 130px;
-  top: 34%;
-  right: 42%;
-  background: radial-gradient(circle at 32% 28%, #fff 0%, #cfd8ff 10%, #5f6fd0 34%, #171b3c 70%, #05060f 100%);
-  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
+.tech-orb [data-lucide],
+.tech-orb svg {
+  color: var(--paper);
+  width: 40%;
+  height: 40%;
+  stroke-width: 1.5;
 }
 
-.blob-2 {
-  width: 70px;
-  height: 70px;
-  bottom: 10%;
-  right: 34%;
-  background: radial-gradient(circle at 30% 25%, #fff 0%, #f6d9c9 14%, #d97a4a 45%, #6b2f16 80%, #200c05 100%);
-  box-shadow: 0 14px 32px rgba(0, 0, 0, 0.45);
+.tech-orb-1 {
+  width: 108px;
+  height: 108px;
+  top: 32%;
+  right: 40%;
+  animation-delay: 0s;
+}
+
+.tech-orb-2 {
+  width: 68px;
+  height: 68px;
+  bottom: 12%;
+  right: 32%;
+  animation-delay: -1.8s;
+}
+
+.tech-orb-3 {
+  width: 52px;
+  height: 52px;
+  top: 12%;
+  right: 30%;
+  animation-delay: -3.2s;
+}
+
+@keyframes orb-float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-18px); }
 }
 
 @media (max-width: 900px) {
@@ -341,11 +366,36 @@ h3 {
 }
 
 .hero-name {
-  font-size: clamp(2.6rem, 10.5vw, 8.2rem);
-  line-height: 0.88;
-  letter-spacing: -0.02em;
+  font-size: clamp(1.9rem, 6.4vw, 4.6rem);
+  line-height: 0.98;
+  letter-spacing: -0.01em;
   margin-bottom: 28px;
-  max-width: 16ch;
+  max-width: 18ch;
+}
+
+.name-word {
+  display: inline-block;
+  opacity: 0;
+  transform: translateY(0.4em);
+  animation: name-reveal 640ms cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.name-word:nth-child(1) { animation-delay: 0ms; }
+.name-word:nth-child(2) { animation-delay: 90ms; }
+.name-word:nth-child(3) { animation-delay: 180ms; }
+.name-word:nth-child(4) { animation-delay: 270ms; }
+.name-word:nth-child(5) { animation-delay: 360ms; }
+
+@keyframes name-reveal {
+  from { opacity: 0; transform: translateY(0.4em); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.name-cursor {
+  display: inline-block;
+  color: var(--paper);
+  animation: caret-blink 1s steps(1) infinite;
+  animation-delay: 460ms;
 }
 
 .hero-role {
@@ -476,7 +526,7 @@ h3 {
   line-height: 1.45;
 }
 
-/* Sobre — layout de duas colunas com esfera decorativa ------------------ */
+/* Sobre — layout de duas colunas com orb decorativa ------------------ */
 .sobre-grid {
   position: relative;
   display: grid;
@@ -490,29 +540,83 @@ h3 {
   padding-top: 6px;
 }
 
-.sobre-sphere {
-  position: absolute;
-  z-index: 0;
-  top: -20px;
-  right: 6%;
-  width: 300px;
-  height: 300px;
-  border-radius: 50%;
-  background: radial-gradient(circle at 34% 28%, #ffffff 0%, #d6ddff 10%, #6c7bd6 32%, #1b2350 62%, #05060f 92%);
-  box-shadow: 0 50px 90px rgba(0, 0, 0, 0.55);
-  opacity: 0.92;
-}
-
 .sobre-grid .about-text {
   position: relative;
   z-index: 1;
+}
+
+.sobre-orb {
+  z-index: 2;
+}
+
+/* React */
+.sobre-orb-1 {
+  width: 76px;
+  height: 76px;
+  top: -14px;
+  right: 4%;
+  animation-delay: -2.4s;
+}
+
+/* JavaScript */
+.sobre-orb-2 {
+  width: 42px;
+  height: 42px;
+  top: 34%;
+  right: 0%;
+  animation-delay: -0.6s;
+}
+
+/* Node.js */
+.sobre-orb-3 {
+  width: 58px;
+  height: 58px;
+  bottom: -20px;
+  right: 22%;
+  animation-delay: -3.6s;
+}
+
+/* PostgreSQL / SQL */
+.sobre-orb-4 {
+  width: 38px;
+  height: 38px;
+  bottom: 10%;
+  right: -2%;
+  animation-delay: -1.6s;
+}
+
+/* Git */
+.sobre-orb-5 {
+  width: 40px;
+  height: 40px;
+  top: 66%;
+  left: 2%;
+  animation-delay: -4.2s;
+}
+
+/* Docker */
+.sobre-orb-6 {
+  width: 46px;
+  height: 46px;
+  top: 42%;
+  left: -1%;
+  animation-delay: -2.9s;
+}
+
+/* Python */
+.sobre-orb-7 {
+  width: 34px;
+  height: 34px;
+  top: 4%;
+  right: 16%;
+  animation-delay: -1.1s;
 }
 
 @media (max-width: 720px) {
   .sobre-grid {
     grid-template-columns: 1fr;
   }
-  .sobre-sphere {
+  .sobre-orb {
     display: none;
   }
 }
