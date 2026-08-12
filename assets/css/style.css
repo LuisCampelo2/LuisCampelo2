@@ -670,11 +670,121 @@ h3 {
   }
 }
 
-/* Skills ---------------------------------------------------------------- */
-.skills-grid {
+/* Skills — fluxograma ----------------------------------------------------- */
+.flowchart-caption {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--muted);
+  margin-bottom: 44px;
+  max-width: 50ch;
+}
+
+.flowchart {
+  max-width: 920px;
+  margin: 0 auto;
+}
+
+.flow-tier {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
-  gap: 14px;
+  gap: 16px;
+}
+
+.flow-tier-single {
+  grid-template-columns: 1fr;
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+.flow-tier-3 {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.flow-tier-2 {
+  grid-template-columns: repeat(2, 1fr);
+  max-width: 520px;
+  margin: 0 auto;
+}
+
+.flow-connector {
+  position: relative;
+  height: 40px;
+}
+
+.flow-connector::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  height: 1px;
+  background: var(--fg);
+  opacity: 0.35;
+}
+
+.flow-connector-3::after {
+  left: 16.667%;
+  right: 16.667%;
+}
+
+.flow-connector-2::after {
+  left: 25%;
+  right: 25%;
+}
+
+.flow-node {
+  position: relative;
+}
+
+.flow-node-root::after,
+.flow-node-mid::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 100%;
+  width: 1px;
+  height: 20px;
+  background: var(--fg);
+  opacity: 0.35;
+}
+
+.flow-node-mid::before,
+.flow-node-leaf::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 100%;
+  width: 1px;
+  height: 20px;
+  background: var(--fg);
+  opacity: 0.35;
+}
+
+.skill-group.flow-node-highlight {
+  background: var(--card-fg);
+  color: var(--card-bg);
+}
+
+.flow-node-highlight .skill-group-head,
+.flow-node-highlight .skill-group-head h3 {
+  color: var(--card-bg);
+}
+
+.flow-node-highlight .skill-chips li {
+  color: var(--card-bg);
+  border-color: var(--card-bg);
+}
+
+@media (max-width: 700px) {
+  .flow-tier-3,
+  .flow-tier-2 {
+    grid-template-columns: 1fr;
+    max-width: 300px;
+    margin: 0 auto;
+  }
+
+  .flow-connector-3::after,
+  .flow-connector-2::after {
+    left: 50%;
+    right: 50%;
+  }
 }
 
 .skill-group {
