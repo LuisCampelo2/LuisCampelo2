@@ -1336,6 +1336,7 @@ h3 {
   color: var(--card-fg);
 }
 
+.certificate-card.certificate-card-featured h3,
 .certificate-card-featured p:not(.certificate-meta) {
   color: var(--card-bg);
 }
