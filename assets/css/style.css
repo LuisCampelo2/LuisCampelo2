@@ -248,7 +248,6 @@ h3 {
   position: relative;
   overflow: hidden;
   padding: 96px 0 88px;
-  border-bottom: 1px solid var(--paper);
 }
 
 .hero-collage {
@@ -490,7 +489,6 @@ h3 {
   padding: 96px 0;
   background: var(--bg);
   color: var(--fg);
-  border-bottom: 1px solid var(--line);
 }
 
 .section-alt {
@@ -500,6 +498,38 @@ h3 {
   --faint: #6e6e6e;
   --fg-soft: rgba(0, 0, 0, 0.06);
   --line: rgba(0, 0, 0, 0.16);
+}
+
+/* Transições suaves entre blocos pretos e brancos, no lugar do corte seco. */
+.fade-from-dark,
+.fade-from-light {
+  position: relative;
+}
+
+.fade-from-dark::before,
+.fade-from-light::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 140px;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.fade-from-dark::before {
+  background: linear-gradient(180deg, #000 0%, var(--bg) 100%);
+}
+
+.fade-from-light::before {
+  background: linear-gradient(180deg, #fff 0%, var(--bg) 100%);
+}
+
+.fade-from-dark > .wrap,
+.fade-from-light > .wrap {
+  position: relative;
+  z-index: 1;
 }
 
 .section-kicker {
@@ -627,7 +657,6 @@ h3 {
   overflow: hidden;
   padding: 64px 0;
   background: var(--ink);
-  border-bottom: 1px solid var(--paper);
 }
 
 .divider-word {
