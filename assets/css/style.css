@@ -513,7 +513,7 @@ h3 {
   top: 0;
   left: 0;
   right: 0;
-  height: 140px;
+  height: 48px;
   z-index: 0;
   pointer-events: none;
 }
@@ -647,54 +647,6 @@ h3 {
     grid-template-columns: 1fr;
   }
   .sobre-orb {
-    display: none;
-  }
-}
-
-/* Divider — faixa com wordmark repetido ---------------------------------- */
-.divider-band {
-  position: relative;
-  overflow: hidden;
-  padding: 64px 0;
-  background: var(--ink);
-}
-
-.divider-word {
-  font-family: var(--font-display);
-  font-weight: 400;
-  text-transform: uppercase;
-  color: var(--paper);
-  font-size: clamp(3rem, 13vw, 10rem);
-  line-height: 0.85;
-  text-align: center;
-  position: relative;
-  z-index: 2;
-}
-
-.divider-tile {
-  position: absolute;
-  z-index: 1;
-  object-fit: cover;
-  filter: grayscale(10%) contrast(1.05);
-  box-shadow: 0 24px 50px rgba(0, 0, 0, 0.55);
-}
-
-.divider-tile-1 {
-  width: 190px;
-  top: 8%;
-  left: 8%;
-  transform: rotate(-5deg);
-}
-
-.divider-tile-2 {
-  width: 230px;
-  bottom: 6%;
-  right: 8%;
-  transform: rotate(4deg);
-}
-
-@media (max-width: 760px) {
-  .divider-tile {
     display: none;
   }
 }
@@ -1694,13 +1646,8 @@ h3 {
   padding: 72px 0 48px;
 }
 
-.footer-wordmark {
-  font-family: var(--font-display);
-  font-weight: 400;
-  text-transform: uppercase;
-  font-size: clamp(2.4rem, 9vw, 6rem);
-  line-height: 0.9;
-  margin-bottom: 48px;
+.footer-inner .section-kicker {
+  margin-bottom: 40px;
 }
 
 .contact-list {
