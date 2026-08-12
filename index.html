@@ -274,66 +274,106 @@
     </section>
 
     <!-- Projetos -->
-    <section id="projetos" class="section">
+    <section id="projetos" class="section projects-section">
       <div class="wrap">
         <p class="section-kicker">03 — Trabalho</p>
         <h2 class="section-title">Projetos</h2>
+        <p class="flowchart-caption">Dois projetos, um palco só. Passe o mouse e navegue.</p>
 
-        <div class="projects-grid">
-          <article class="project-card">
-            <div class="project-card-head">
-              <h3>VestWeb</h3>
-              <a class="project-more-link" href="projetos/vestweb.html">
-                Ver mais
-                <i data-lucide="arrow-right" aria-hidden="true"></i>
-              </a>
-            </div>
-            <p>
-              Plataforma web educacional com área do aluno e área do professor, com integração
-              entre front-end e back-end e gerenciamento de dados.
-            </p>
-            <div class="project-stack">
-              <span class="project-stack-label">
-                <i data-lucide="terminal" aria-hidden="true"></i>
-                stack
-              </span>
-              <ul class="tag-list">
-                <li>React</li>
-                <li>Node.js</li>
-                <li>Express</li>
-                <li>SQL</li>
-                <li>PostgreSQL</li>
-              </ul>
-            </div>
-          </article>
+        <div class="carousel" id="projectsCarousel">
+          <p id="carouselStatus" class="visually-hidden" aria-live="polite">VestWeb, projeto 1 de 2</p>
 
-          <article class="project-card">
-            <div class="project-card-head">
-              <h3>Lift</h3>
-              <a class="project-more-link" href="projetos/lift.html">
-                Ver mais
-                <i data-lucide="arrow-right" aria-hidden="true"></i>
-              </a>
+          <div class="carousel-stage">
+            <div class="filmstrip" aria-hidden="true"></div>
+
+            <div class="carousel-track">
+              <article class="carousel-slide" data-index="0">
+                <span class="slide-index" aria-hidden="true">01 / 02</span>
+                <span class="slide-spotlight" aria-hidden="true"></span>
+
+                <div class="slide-logo">
+                  <img src="assets/img/logos/vestweb-mark.webp" alt="Logo VestWeb" loading="lazy">
+                </div>
+
+                <div class="slide-content">
+                  <h3>VestWeb</h3>
+                  <p>
+                    Plataforma web educacional com área do aluno e área do professor, com
+                    integração entre front-end e back-end e gerenciamento de dados.
+                  </p>
+                  <div class="project-stack">
+                    <span class="project-stack-label">
+                      <i data-lucide="terminal" aria-hidden="true"></i>
+                      stack
+                    </span>
+                    <ul class="tag-list">
+                      <li>React</li>
+                      <li>Node.js</li>
+                      <li>Express</li>
+                      <li>SQL</li>
+                      <li>PostgreSQL</li>
+                    </ul>
+                  </div>
+                  <a class="project-more-link" href="projetos/vestweb.html">
+                    Ver mais
+                    <i data-lucide="arrow-right" aria-hidden="true"></i>
+                  </a>
+                </div>
+              </article>
+
+              <article class="carousel-slide" data-index="1">
+                <span class="slide-index" aria-hidden="true">02 / 02</span>
+                <span class="slide-spotlight" aria-hidden="true"></span>
+
+                <div class="slide-logo slide-logo-lift">
+                  <img src="assets/img/logos/lift-wordmark.webp" alt="Logo Lift" loading="lazy">
+                </div>
+
+                <div class="slide-content">
+                  <h3>Lift</h3>
+                  <p>
+                    Plataforma de gestão para personal trainers, alunos e academias: gerenciamento
+                    de treinos, evolução física, agenda de aulas, controle financeiro e sistema de
+                    assinaturas.
+                  </p>
+                  <div class="project-stack">
+                    <span class="project-stack-label">
+                      <i data-lucide="terminal" aria-hidden="true"></i>
+                      stack
+                    </span>
+                    <ul class="tag-list">
+                      <li>React</li>
+                      <li>Node.js</li>
+                      <li>Express</li>
+                      <li>SQL</li>
+                      <li>PostgreSQL</li>
+                    </ul>
+                  </div>
+                  <a class="project-more-link" href="projetos/lift.html">
+                    Ver mais
+                    <i data-lucide="arrow-right" aria-hidden="true"></i>
+                  </a>
+                </div>
+              </article>
             </div>
-            <p>
-              Plataforma de gestão para personal trainers, alunos e academias: gerenciamento de
-              treinos, evolução física, agenda de aulas, controle financeiro e sistema de
-              assinaturas.
-            </p>
-            <div class="project-stack">
-              <span class="project-stack-label">
-                <i data-lucide="terminal" aria-hidden="true"></i>
-                stack
-              </span>
-              <ul class="tag-list">
-                <li>React</li>
-                <li>Node.js</li>
-                <li>Express</li>
-                <li>SQL</li>
-                <li>PostgreSQL</li>
-              </ul>
+
+            <div class="filmstrip" aria-hidden="true"></div>
+          </div>
+
+          <div class="carousel-controls">
+            <button class="carousel-arrow carousel-prev" type="button" aria-label="Projeto anterior">
+              <i data-lucide="arrow-left" aria-hidden="true"></i>
+            </button>
+
+            <div class="carousel-dots" role="tablist" aria-label="Selecionar projeto">
+              <button class="carousel-dot" type="button" data-index="0" aria-label="Ir para VestWeb"></button>
+              <button class="carousel-dot" type="button" data-index="1" aria-label="Ir para Lift"></button>
             </div>
-          </article>
+
+            <button class="carousel-arrow carousel-next" type="button" aria-label="Próximo projeto">
+              <i data-lucide="arrow-right" aria-hidden="true"></i>
+            </button>
+          </div>
         </div>
       </div>
     </section>
@@ -634,5 +674,6 @@
   <script src="https://unpkg.com/lucide@0.260.0/dist/umd/lucide.js"></script>
   <script src="assets/js/main.js"></script>
   <script src="assets/js/video-embed.js"></script>
+  <script src="assets/js/carousel.js"></script>
 </body>
 </html>
